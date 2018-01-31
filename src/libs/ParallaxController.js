@@ -297,7 +297,7 @@ function ParallaxController() {
         const el = element.elInner;
 
         // prettier-ignore
-        el.style.transform = `translate3d(${offsets.x.value}${offsets.x.unit}, ${offsets.y.value}${offsets.y.unit}, 0)`;
+        el.style.transform = `rotate(${offsets.x.value}deg) translate3d(${offsets.x.value}${offsets.x.unit}, ${offsets.y.value}${offsets.y.unit}, 0)`;
     }
 
     /**
